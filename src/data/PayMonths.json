@@ -1,0 +1,2778 @@
+{
+  "31-May-2023": {
+    "Earning": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "BASIC",
+        "fieldDesc": "Basic",
+        "LOV_Text": "Earning",
+        "PayheadValue": 13444,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "HRA",
+        "fieldDesc": "House Rent Allowance (HRA)",
+        "LOV_Text": "Earning",
+        "PayheadValue": 6722,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CONV",
+        "fieldDesc": "Conveyance Allowances",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SPLALL",
+        "fieldDesc": "Special allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 1325,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "MED",
+        "fieldDesc": "Medical",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LTA",
+        "fieldDesc": "Leave Travel Allowance (LTA)",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CARALL",
+        "fieldDesc": "CAR OPERATING ALLOW",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ATTALL",
+        "fieldDesc": "ATTALL",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "AIRALL",
+        "fieldDesc": "AIRPORT ALLOWANCE",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "AREAALL",
+        "fieldDesc": "AREA ALLOWANCE",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LOCALL",
+        "fieldDesc": "Location allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "EDUALL",
+        "fieldDesc": "Child Education Allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 200,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "MEALAL",
+        "fieldDesc": "Meal AllÂ ",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "WALL",
+        "fieldDesc": "Washing allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "DEPALL",
+        "fieldDesc": "DEPUTATION ALLOW",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "VDA",
+        "fieldDesc": "Variable Dearness Allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CCA",
+        "fieldDesc": "City Compensatory Allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 8066,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "JAGARI",
+        "fieldDesc": "Jagari allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SFTALL",
+        "fieldDesc": "shift allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "D80CD2",
+        "fieldDesc": "National Pension Scheme (NPS)",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "TESTMONKEY",
+        "fieldDesc": "monkey  testing 4555",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PERBONN",
+        "fieldDesc": "Performance Bonus Development",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ADHOCALL",
+        "fieldDesc": "Adhoc Allowance test",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "Deduction": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "FLTACHECK",
+        "fieldDesc": "FLTACHECK",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PF",
+        "fieldDesc": "PF Employee Contr",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 1613,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PTAX",
+        "fieldDesc": "Professional Tax",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "TAXDEDUTHISMON",
+        "fieldDesc": "TDS",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LON_SALADV",
+        "fieldDesc": "Salary Advance",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "NOTDED",
+        "fieldDesc": "Notice Recovery",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "OTHDED",
+        "fieldDesc": "Other deduction",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "VPF",
+        "fieldDesc": "Voluntary Provident Fund (VPF)",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ELWF",
+        "fieldDesc": "LWF Employee",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ESI",
+        "fieldDesc": "ESI Employee Contr",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "Reimbursement": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LTARIM",
+        "fieldDesc": "LTA REIMBURSEMENT",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 1120,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CARMNT",
+        "fieldDesc": "CAR MAINTENANCE",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "VEHRIM",
+        "fieldDesc": "Vehicle Maintenance (Annual)",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "TELRIM",
+        "fieldDesc": "Vehicle Lease / Car Rental",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "BOKRIM",
+        "fieldDesc": "BOKRIM",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ENTRIM",
+        "fieldDesc": "Entertainment",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "MEDRIM",
+        "fieldDesc": "Medical Reimbursment",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "DRVRIM",
+        "fieldDesc": "Driver salary reimbursement",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "UNIRIM",
+        "fieldDesc": "Uniform Reimbursement",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "NWSRIM",
+        "fieldDesc": "News Paper Reimbursment",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "Loan & Advances": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LOAN_ADVB",
+        "fieldDesc": "Salary Loan Advance",
+        "LOV_Text": "Loan & Advances",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "Other": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "GPAY",
+        "fieldDesc": "GPAY",
+        "LOV_Text": "Other",
+        "PayheadValue": 21691,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "One Time Payment": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "NOTPAY",
+        "fieldDesc": "Notice Pay",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "HDPAY",
+        "fieldDesc": "HDPAY",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CANALL",
+        "fieldDesc": "Canteen Allowance",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SALINC",
+        "fieldDesc": "Sales Incentive",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "COMOFF",
+        "fieldDesc": "Compensatory Off",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SFTPAY",
+        "fieldDesc": "Shifting Allowance",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SIRPAY",
+        "fieldDesc": "Sales Incentive Repay",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PDNINC",
+        "fieldDesc": "production incentive",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "IMPERN",
+        "fieldDesc": "IMPREST PAYABLE",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "TRANAL",
+        "fieldDesc": "TRANSFER ALLOWANCE",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "QTREF",
+        "fieldDesc": "Qtr Efficency",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LOCCON",
+        "fieldDesc": "Local Allowance",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "RETALL",
+        "fieldDesc": "Retaintation All",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PERBON",
+        "fieldDesc": "PERFORMANCE BONUS",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "OT_AMT",
+        "fieldDesc": "Overtime Amount",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "OTHALL",
+        "fieldDesc": "Other allowance",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "OTHERN",
+        "fieldDesc": "OTHERN",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "JONBON",
+        "fieldDesc": "Joining Bonus",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "REFBON",
+        "fieldDesc": "REFBON",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "BONUS",
+        "fieldDesc": "Bonus",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "GRATUITY",
+        "fieldDesc": "GRATUITY",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "INCENT",
+        "fieldDesc": "Performance Incentive",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LVNCAS",
+        "fieldDesc": "PL Encash",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ]
+  },
+  "30-Apr-2023": {
+    "Earning": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "BASIC",
+        "fieldDesc": "Basic",
+        "LOV_Text": "Earning",
+        "PayheadValue": 13444,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "HRA",
+        "fieldDesc": "House Rent Allowance (HRA)",
+        "LOV_Text": "Earning",
+        "PayheadValue": 6722,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CONV",
+        "fieldDesc": "Conveyance Allowances",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SPLALL",
+        "fieldDesc": "Special allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 1325,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "MED",
+        "fieldDesc": "Medical",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LTA",
+        "fieldDesc": "Leave Travel Allowance (LTA)",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CARALL",
+        "fieldDesc": "CAR OPERATING ALLOW",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ATTALL",
+        "fieldDesc": "ATTALL",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "AIRALL",
+        "fieldDesc": "AIRPORT ALLOWANCE",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "AREAALL",
+        "fieldDesc": "AREA ALLOWANCE",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LOCALL",
+        "fieldDesc": "Location allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "EDUALL",
+        "fieldDesc": "Child Education Allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 200,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "MEALAL",
+        "fieldDesc": "Meal AllÂ ",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "WALL",
+        "fieldDesc": "Washing allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "DEPALL",
+        "fieldDesc": "DEPUTATION ALLOW",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "VDA",
+        "fieldDesc": "Variable Dearness Allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CCA",
+        "fieldDesc": "City Compensatory Allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 8066,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "JAGARI",
+        "fieldDesc": "Jagari allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SFTALL",
+        "fieldDesc": "shift allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "D80CD2",
+        "fieldDesc": "National Pension Scheme (NPS)",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "TESTMONKEY",
+        "fieldDesc": "monkey  testing 4555",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PERBONN",
+        "fieldDesc": "Performance Bonus Development",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ADHOCALL",
+        "fieldDesc": "Adhoc Allowance test",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "Deduction": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "FLTACHECK",
+        "fieldDesc": "FLTACHECK",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PF",
+        "fieldDesc": "PF Employee Contr",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 1613,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PTAX",
+        "fieldDesc": "Professional Tax",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "TAXDEDUTHISMON",
+        "fieldDesc": "TDS",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LON_SALADV",
+        "fieldDesc": "Salary Advance",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "NOTDED",
+        "fieldDesc": "Notice Recovery",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "OTHDED",
+        "fieldDesc": "Other deduction",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "VPF",
+        "fieldDesc": "Voluntary Provident Fund (VPF)",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ELWF",
+        "fieldDesc": "LWF Employee",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ESI",
+        "fieldDesc": "ESI Employee Contr",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "Reimbursement": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LTARIM",
+        "fieldDesc": "LTA REIMBURSEMENT",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 1120,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CARMNT",
+        "fieldDesc": "CAR MAINTENANCE",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "VEHRIM",
+        "fieldDesc": "Vehicle Maintenance (Annual)",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "TELRIM",
+        "fieldDesc": "Vehicle Lease / Car Rental",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "BOKRIM",
+        "fieldDesc": "BOKRIM",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ENTRIM",
+        "fieldDesc": "Entertainment",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "MEDRIM",
+        "fieldDesc": "Medical Reimbursment",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "DRVRIM",
+        "fieldDesc": "Driver salary reimbursement",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "UNIRIM",
+        "fieldDesc": "Uniform Reimbursement",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "NWSRIM",
+        "fieldDesc": "News Paper Reimbursment",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "Loan & Advances": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LOAN_ADVB",
+        "fieldDesc": "Salary Loan Advance",
+        "LOV_Text": "Loan & Advances",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "Other": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "GPAY",
+        "fieldDesc": "GPAY",
+        "LOV_Text": "Other",
+        "PayheadValue": 21691,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "One Time Payment": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "NOTPAY",
+        "fieldDesc": "Notice Pay",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "HDPAY",
+        "fieldDesc": "HDPAY",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CANALL",
+        "fieldDesc": "Canteen Allowance",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SALINC",
+        "fieldDesc": "Sales Incentive",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "COMOFF",
+        "fieldDesc": "Compensatory Off",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SFTPAY",
+        "fieldDesc": "Shifting Allowance",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SIRPAY",
+        "fieldDesc": "Sales Incentive Repay",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PDNINC",
+        "fieldDesc": "production incentive",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "IMPERN",
+        "fieldDesc": "IMPREST PAYABLE",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "TRANAL",
+        "fieldDesc": "TRANSFER ALLOWANCE",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "QTREF",
+        "fieldDesc": "Qtr Efficency",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LOCCON",
+        "fieldDesc": "Local Allowance",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "RETALL",
+        "fieldDesc": "Retaintation All",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PERBON",
+        "fieldDesc": "PERFORMANCE BONUS",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "OT_AMT",
+        "fieldDesc": "Overtime Amount",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "OTHALL",
+        "fieldDesc": "Other allowance",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "OTHERN",
+        "fieldDesc": "OTHERN",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "JONBON",
+        "fieldDesc": "Joining Bonus",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "REFBON",
+        "fieldDesc": "REFBON",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "BONUS",
+        "fieldDesc": "Bonus",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "GRATUITY",
+        "fieldDesc": "GRATUITY",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "INCENT",
+        "fieldDesc": "Performance Incentive",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LVNCAS",
+        "fieldDesc": "PL Encash",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ]
+  },
+  "28-Feb-2023": {
+    "Earning": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "BASIC",
+        "fieldDesc": "Basic",
+        "LOV_Text": "Earning",
+        "PayheadValue": 13444,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "HRA",
+        "fieldDesc": "House Rent Allowance (HRA)",
+        "LOV_Text": "Earning",
+        "PayheadValue": 6722,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CONV",
+        "fieldDesc": "Conveyance Allowances",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SPLALL",
+        "fieldDesc": "Special allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 1325,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "MED",
+        "fieldDesc": "Medical",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LTA",
+        "fieldDesc": "Leave Travel Allowance (LTA)",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CARALL",
+        "fieldDesc": "CAR OPERATING ALLOW",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ATTALL",
+        "fieldDesc": "ATTALL",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "AIRALL",
+        "fieldDesc": "AIRPORT ALLOWANCE",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "AREAALL",
+        "fieldDesc": "AREA ALLOWANCE",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LOCALL",
+        "fieldDesc": "Location allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "EDUALL",
+        "fieldDesc": "Child Education Allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 200,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "MEALAL",
+        "fieldDesc": "Meal AllÂ ",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "WALL",
+        "fieldDesc": "Washing allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "DEPALL",
+        "fieldDesc": "DEPUTATION ALLOW",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "VDA",
+        "fieldDesc": "Variable Dearness Allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CCA",
+        "fieldDesc": "City Compensatory Allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 8066,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "JAGARI",
+        "fieldDesc": "Jagari allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SFTALL",
+        "fieldDesc": "shift allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "D80CD2",
+        "fieldDesc": "National Pension Scheme (NPS)",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "TESTMONKEY",
+        "fieldDesc": "monkey  testing 4555",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PERBONN",
+        "fieldDesc": "Performance Bonus Development",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ADHOCALL",
+        "fieldDesc": "Adhoc Allowance test",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "Deduction": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "FLTACHECK",
+        "fieldDesc": "FLTACHECK",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PF",
+        "fieldDesc": "PF Employee Contr",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 1613,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PTAX",
+        "fieldDesc": "Professional Tax",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "TAXDEDUTHISMON",
+        "fieldDesc": "TDS",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LON_SALADV",
+        "fieldDesc": "Salary Advance",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "NOTDED",
+        "fieldDesc": "Notice Recovery",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "OTHDED",
+        "fieldDesc": "Other deduction",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "VPF",
+        "fieldDesc": "Voluntary Provident Fund (VPF)",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ELWF",
+        "fieldDesc": "LWF Employee",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ESI",
+        "fieldDesc": "ESI Employee Contr",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "Reimbursement": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LTARIM",
+        "fieldDesc": "LTA REIMBURSEMENT",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 1120,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CARMNT",
+        "fieldDesc": "CAR MAINTENANCE",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "VEHRIM",
+        "fieldDesc": "Vehicle Maintenance (Annual)",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "TELRIM",
+        "fieldDesc": "Vehicle Lease / Car Rental",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "BOKRIM",
+        "fieldDesc": "BOKRIM",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ENTRIM",
+        "fieldDesc": "Entertainment",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "MEDRIM",
+        "fieldDesc": "Medical Reimbursment",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "DRVRIM",
+        "fieldDesc": "Driver salary reimbursement",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "UNIRIM",
+        "fieldDesc": "Uniform Reimbursement",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "NWSRIM",
+        "fieldDesc": "News Paper Reimbursment",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "Loan & Advances": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LOAN_ADVB",
+        "fieldDesc": "Salary Loan Advance",
+        "LOV_Text": "Loan & Advances",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "Other": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "GPAY",
+        "fieldDesc": "GPAY",
+        "LOV_Text": "Other",
+        "PayheadValue": 21691,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "One Time Payment": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "NOTPAY",
+        "fieldDesc": "Notice Pay",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "HDPAY",
+        "fieldDesc": "HDPAY",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CANALL",
+        "fieldDesc": "Canteen Allowance",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SALINC",
+        "fieldDesc": "Sales Incentive",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "COMOFF",
+        "fieldDesc": "Compensatory Off",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SFTPAY",
+        "fieldDesc": "Shifting Allowance",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SIRPAY",
+        "fieldDesc": "Sales Incentive Repay",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PDNINC",
+        "fieldDesc": "production incentive",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "IMPERN",
+        "fieldDesc": "IMPREST PAYABLE",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "TRANAL",
+        "fieldDesc": "TRANSFER ALLOWANCE",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "QTREF",
+        "fieldDesc": "Qtr Efficency",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LOCCON",
+        "fieldDesc": "Local Allowance",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "RETALL",
+        "fieldDesc": "Retaintation All",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PERBON",
+        "fieldDesc": "PERFORMANCE BONUS",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "OT_AMT",
+        "fieldDesc": "Overtime Amount",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "OTHALL",
+        "fieldDesc": "Other allowance",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "OTHERN",
+        "fieldDesc": "OTHERN",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "JONBON",
+        "fieldDesc": "Joining Bonus",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "REFBON",
+        "fieldDesc": "REFBON",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "BONUS",
+        "fieldDesc": "Bonus",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "GRATUITY",
+        "fieldDesc": "GRATUITY",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "INCENT",
+        "fieldDesc": "Performance Incentive",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LVNCAS",
+        "fieldDesc": "PL Encash",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ]
+  },
+  "31-Jan-2023": {
+    "Earning": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "BASIC",
+        "fieldDesc": "Basic",
+        "LOV_Text": "Earning",
+        "PayheadValue": 13444,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "HRA",
+        "fieldDesc": "House Rent Allowance (HRA)",
+        "LOV_Text": "Earning",
+        "PayheadValue": 6722,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CONV",
+        "fieldDesc": "Conveyance Allowances",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SPLALL",
+        "fieldDesc": "Special allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 1325,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "MED",
+        "fieldDesc": "Medical",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LTA",
+        "fieldDesc": "Leave Travel Allowance (LTA)",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CARALL",
+        "fieldDesc": "CAR OPERATING ALLOW",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ATTALL",
+        "fieldDesc": "ATTALL",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "AIRALL",
+        "fieldDesc": "AIRPORT ALLOWANCE",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "AREAALL",
+        "fieldDesc": "AREA ALLOWANCE",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LOCALL",
+        "fieldDesc": "Location allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "EDUALL",
+        "fieldDesc": "Child Education Allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 200,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "MEALAL",
+        "fieldDesc": "Meal AllÂ ",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "WALL",
+        "fieldDesc": "Washing allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "DEPALL",
+        "fieldDesc": "DEPUTATION ALLOW",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "VDA",
+        "fieldDesc": "Variable Dearness Allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CCA",
+        "fieldDesc": "City Compensatory Allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 8066,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "JAGARI",
+        "fieldDesc": "Jagari allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SFTALL",
+        "fieldDesc": "shift allowance",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "D80CD2",
+        "fieldDesc": "National Pension Scheme (NPS)",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "TESTMONKEY",
+        "fieldDesc": "monkey  testing 4555",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PERBONN",
+        "fieldDesc": "Performance Bonus Development",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ADHOCALL",
+        "fieldDesc": "Adhoc Allowance test",
+        "LOV_Text": "Earning",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "Deduction": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "FLTACHECK",
+        "fieldDesc": "FLTACHECK",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PF",
+        "fieldDesc": "PF Employee Contr",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 1613,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PTAX",
+        "fieldDesc": "Professional Tax",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "TAXDEDUTHISMON",
+        "fieldDesc": "TDS",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LON_SALADV",
+        "fieldDesc": "Salary Advance",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "NOTDED",
+        "fieldDesc": "Notice Recovery",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "OTHDED",
+        "fieldDesc": "Other deduction",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "VPF",
+        "fieldDesc": "Voluntary Provident Fund (VPF)",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ELWF",
+        "fieldDesc": "LWF Employee",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ESI",
+        "fieldDesc": "ESI Employee Contr",
+        "LOV_Text": "Deduction",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "Reimbursement": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LTARIM",
+        "fieldDesc": "LTA REIMBURSEMENT",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 1120,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CARMNT",
+        "fieldDesc": "CAR MAINTENANCE",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "VEHRIM",
+        "fieldDesc": "Vehicle Maintenance (Annual)",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "TELRIM",
+        "fieldDesc": "Vehicle Lease / Car Rental",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "BOKRIM",
+        "fieldDesc": "BOKRIM",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "ENTRIM",
+        "fieldDesc": "Entertainment",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "MEDRIM",
+        "fieldDesc": "Medical Reimbursment",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "DRVRIM",
+        "fieldDesc": "Driver salary reimbursement",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "UNIRIM",
+        "fieldDesc": "Uniform Reimbursement",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "NWSRIM",
+        "fieldDesc": "News Paper Reimbursment",
+        "LOV_Text": "Reimbursement",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "Loan & Advances": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LOAN_ADVB",
+        "fieldDesc": "Salary Loan Advance",
+        "LOV_Text": "Loan & Advances",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "Other": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "GPAY",
+        "fieldDesc": "GPAY",
+        "LOV_Text": "Other",
+        "PayheadValue": 21691,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ],
+    "One Time Payment": [
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "NOTPAY",
+        "fieldDesc": "Notice Pay",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "HDPAY",
+        "fieldDesc": "HDPAY",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "CANALL",
+        "fieldDesc": "Canteen Allowance",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SALINC",
+        "fieldDesc": "Sales Incentive",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "COMOFF",
+        "fieldDesc": "Compensatory Off",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SFTPAY",
+        "fieldDesc": "Shifting Allowance",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "SIRPAY",
+        "fieldDesc": "Sales Incentive Repay",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PDNINC",
+        "fieldDesc": "production incentive",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "IMPERN",
+        "fieldDesc": "IMPREST PAYABLE",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "TRANAL",
+        "fieldDesc": "TRANSFER ALLOWANCE",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "QTREF",
+        "fieldDesc": "Qtr Efficency",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LOCCON",
+        "fieldDesc": "Local Allowance",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "RETALL",
+        "fieldDesc": "Retaintation All",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "PERBON",
+        "fieldDesc": "PERFORMANCE BONUS",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "OT_AMT",
+        "fieldDesc": "Overtime Amount",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "OTHALL",
+        "fieldDesc": "Other allowance",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "OTHERN",
+        "fieldDesc": "OTHERN",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "JONBON",
+        "fieldDesc": "Joining Bonus",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "REFBON",
+        "fieldDesc": "REFBON",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "BONUS",
+        "fieldDesc": "Bonus",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "GRATUITY",
+        "fieldDesc": "GRATUITY",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "INCENT",
+        "fieldDesc": "Performance Incentive",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      },
+      {
+        "PayDate": "30-Apr-2023",
+        "PayheadName": "LVNCAS",
+        "fieldDesc": "PL Encash",
+        "LOV_Text": "One Time Payment",
+        "PayheadValue": 0,
+        "IsOutlier": null,
+        "OutlierPercentage": null,
+        "OutlierRank": null
+      }
+    ]
+  }
+}
