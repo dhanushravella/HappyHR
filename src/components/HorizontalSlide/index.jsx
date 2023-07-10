@@ -2,7 +2,6 @@ import React from 'react';
 import './HorizontalSlide.css';
 import styled from 'styled-components';
 import $ from 'jquery';
-import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button } from 'reactstrap';
 import { Row, Col, Popover, Tag, Empty, Divider, Tooltip } from 'antd';
 import { WarningOutlined } from '@ant-design/icons';
 import { Column, Pie } from '@ant-design/plots';
@@ -144,7 +143,7 @@ class HorizontalSlide extends React.Component {
         <Col span={22} className={`main   menu${this.props.id} row`}>
           {Object.keys(this.props.data).map((item, idx) => (
             <Car key={idx} onClick={this.click.bind(null, item, idx)}>
-              <Card className={this.state.activeItem === item ? 'slideactive' : ''}>
+              <div className={this.state.activeItem === item ? 'slideactive' : ''}>
                 <h5 className="mrg10" style={{ color: '#22075e', textAlign: 'center' }}>
                   {item}
                 </h5>
@@ -268,7 +267,7 @@ class HorizontalSlide extends React.Component {
                         </div>
                       )
                     )}
-              </Card>
+              </div>
             </Car>
           ))}
         </Col>
