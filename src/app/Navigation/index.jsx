@@ -6,10 +6,9 @@ import { useAppContext } from '@/context/appContext';
 import logoIcon from '@/style/images/logo-icon.png';
 import logoText from '@/style/images/logo-text.png';
 
-import { SettingOutlined, DashboardOutlined, BugOutlined, BankOutlined } from '@ant-design/icons';
+import { SettingOutlined, DashboardOutlined, BugOutlined, DollarOutlined } from '@ant-design/icons';
 
 const { Sider } = Layout;
-const { SubMenu } = Menu;
 
 export default function Navigation() {
   const { state: stateApp, appContextAction } = useAppContext();
@@ -55,32 +54,18 @@ export default function Navigation() {
             <Link to={'/'} />
             Dashboard
           </Menu.Item>
-          <Menu.Item key={'Turo'} icon={<BugOutlined />}>
+          {/*<Menu.Item visible={false} key={'Turo'} icon={<BugOutlined />}>
             <Link to={'/turbo'} />
             Ask Jeeves
+          </Menu.Item>*/}
+          <Menu.Item key={'View Payslip'} icon={<DollarOutlined />}>
+            <Link to={'/payroll'} onClick={updateActivity} />
+            View Payslip
           </Menu.Item>
-          <SubMenu key={'Payroll'} icon={<BankOutlined />} title={'Payroll'}>
-            <Menu.Item key={'Manage Payroll'}>
-              <Link to={'/payroll'} />
-              Manage Payroll
-            </Menu.Item>
-            <Menu.Item key={'Authorize Payroll'}>
-              <Link to={'/payroll'} />
-              Authorize Payroll
-            </Menu.Item>
-            <Menu.Item key={'Manage Bank Details'}>
-              <Link to={'/payroll'} />
-              Manage Bank Details
-            </Menu.Item>
-            <Menu.Item key={'View Payslip'}>
-              <Link to={'/payroll'} onClick={updateActivity} />
-              View Payslip
-            </Menu.Item>
-          </SubMenu>
-          <Menu.Item key={'Settings'} icon={<SettingOutlined />} title={'Settings'}>
+          {/*<Menu.Item key={'Settings'} icon={<SettingOutlined />} title={'Settings'}>
             <Link to={'/settings'} />
             Settings
-          </Menu.Item>
+        </Menu.Item>*/}
         </Menu>
       </Sider>
     </>

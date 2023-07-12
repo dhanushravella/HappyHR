@@ -407,7 +407,6 @@ const RenderMaterialData = ({ data, title, loading }) => {
       return { ...item };
     });
   }
-  debugger;
   return (
     <Row>
       <Col span={24}>

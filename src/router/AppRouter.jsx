@@ -45,6 +45,7 @@ export default function AppRouter() {
             );
           })}
           <PublicRoute path="/login" render={() => <Redirect to="/" />} exact />
+          <PublicRoute path="/redirect" render={() => <Redirect to="/redirect" />} exact />
           <Route component={Logout} path="/logout" exact />
           <Route path="*" component={NotFound} render={() => <Redirect to="/notfound" />} />
         </Switch>

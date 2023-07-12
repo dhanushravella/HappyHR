@@ -32,7 +32,7 @@ function App() {
     return (
       <Layout style={{ minHeight: '100vh' }}>
         <Navigation />
-        <Layout style={{ minHeight: '100vh', position: 'relative' }}>
+        <Layout>
           <HeaderContent activity={''} />
           <Router isLoggedIn={true} />
         </Layout>

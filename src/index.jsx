@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 
 import App from './app';
 import './style/app.less';
@@ -12,15 +12,16 @@ import store from '@/redux/store';
 
 import { AppContextProvider } from '@/context/appContext';
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
   <RouterHistory history={history}>
     <Provider store={store}>
       <AppContextProvider>
         <App />
       </AppContextProvider>
     </Provider>
-  </RouterHistory>,
-  document.getElementById('root')
+  </RouterHistory>
 );
 
 // If you want your app to work offline and load faster, you can change

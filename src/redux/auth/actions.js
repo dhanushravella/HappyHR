@@ -35,16 +35,15 @@ export const ssoLogin =
       type: actionTypes.LOADING_REQUEST,
       payload: { loading: true },
     });
-    debugger;
     //const data = await authService.login({ loginData });
     const data = loginData;
 
     if (data.success === true) {
       window.localStorage.setItem('isLoggedIn', true);
-      window.localStorage.setItem('auth', JSON.stringify(data.result.admin));
+      window.localStorage.setItem('auth', JSON.stringify(data));
       dispatch({
         type: actionTypes.LOGIN_SUCCESS,
-        payload: data.result.admin,
+        payload: data,
       });
       history.push('/');
     } else {

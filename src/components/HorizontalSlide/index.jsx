@@ -5,6 +5,11 @@ import $ from 'jquery';
 import { Row, Col, Popover, Tag, Empty, Divider, Tooltip } from 'antd';
 import { WarningOutlined } from '@ant-design/icons';
 import { Column, Pie } from '@ant-design/plots';
+import TableChartIcon from '@mui/icons-material/TableChart';
+import BarChartIcon from '@mui/icons-material/BarChart';
+import ToggleButton from '@mui/material/ToggleButton';
+import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
+import { useRef, useState, useEffect } from 'react';
 
 const PopOverData = ({ popItem }) => {
   return (
@@ -67,18 +72,53 @@ const ChartData = ({ payItem, chartType }) => {
   return <div>{chartType === 'pie' ? <Pie {...chartConfig} /> : <Column {...chartConfig} />}</div>;
 };
 
+const ToggleGroup = ({ ctrl, id, changeHandle, alignment }) => {
+  const [align, setAlign] = useState('right');
+  const handleChange = (event, type) => {
+    setAlign(type);
+    changeHandle(type);
+    event.stopPropagation();
+  };
+  return (
+    <ToggleButtonGroup
+      value={alignment}
+      exclusive
+      onChange={handleChange}
+      aria-label="text alignment"
+      size="small"
+      key={'toggle' + id}
+    >
+      <ToggleButton value="left" aria-label="left aligned">
+        <BarChartIcon />
+      </ToggleButton>
+      <ToggleButton value="right" aria-label="right aligned">
+        <TableChartIcon />
+      </ToggleButton>
+    </ToggleButtonGroup>
+  );
+};
 class HorizontalSlide extends React.Component {
   state = {
     activeItem: '',
     activeIndex: 0,
     prevItem: '',
     prevIndex: 0,
+    alignment: 'left',
   };
   constructor(props) {
     super(props);
 
+    this.state = {
+      activeItem: '',
+      activeIndex: 0,
+      prevItem: '',
+      prevIndex: 0,
+      alignment: 'left',
+    };
+
     this.scroll = this.scroll.bind(this);
     this.click = this.click.bind(this);
+    this.handleAlignment = this.handleAlignment.bind(this);
   }
 
   scroll(direction) {
@@ -94,6 +134,7 @@ class HorizontalSlide extends React.Component {
       prevIndex: this.state.activeIndex,
       activeIndex: idx,
       prevItem: this.state.activeItem,
+      alignment: this.state.alignment === 'left' ? 'right' : 'left',
     });
     if (
       idx !== 0 &&
@@ -109,6 +150,10 @@ class HorizontalSlide extends React.Component {
       $(`.menu${this.props.id}`).animate({ scrollLeft: pos }, 800);
     }
     this.props.onClickHandle(item);
+  }
+
+  handleAlignment(newAlignment) {
+    this.setState({ alignment: newAlignment });
   }
 
   // componentDidMount()
@@ -143,10 +188,23 @@ class HorizontalSlide extends React.Component {
         <Col span={22} className={`main   menu${this.props.id} row`}>
           {Object.keys(this.props.data).map((item, idx) => (
             <Car key={idx} onClick={this.click.bind(null, item, idx)}>
-              <div className={this.state.activeItem === item ? 'slideactive' : ''}>
-                <h5 className="mrg10" style={{ color: '#22075e', textAlign: 'center' }}>
-                  {item}
-                </h5>
+              <div className={this.state.activeItem === item ? 'slideactive card' : ' card'}>
+                <Row gutter={(6, 6)}>
+                  <Col span={18}>
+                    <h5 className="mrg10" style={{ color: '#22075e', textAlign: 'center' }}>
+                      {item}
+                    </h5>
+                  </Col>
+                  {this.props.toggleIcon && (
+                    <Col span={6}>
+                      <ToggleGroup
+                        id={idx}
+                        changeHandle={this.handleAlignment}
+                        alignment={this.state.alignment}
+                      />
+                    </Col>
+                  )}
+                </Row>
                 {typeof this.props.data[item] && this.props.data[item].length > 0
                   ? Object.keys(this.props.data[item]) &&
                     Object.keys(this.props.data[item]).map((card, idy) => (

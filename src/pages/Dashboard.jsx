@@ -18,7 +18,7 @@ const TopCard = ({ title, tagContent, tagColor, prefix }) => {
     >
       <div className="whiteBox shadow" style={{ color: '#595959', fontSize: 13, height: '106px' }}>
         <div className="pad15 strong" style={{ textAlign: 'center', justifyContent: 'center' }}>
-          <h3 style={{ color: '#22075e', marginBottom: 0 }}>{title}</h3>
+          <h5 style={{ color: '#22075e', marginBottom: 0 }}>{title}</h5>
         </div>
         <Divider style={{ padding: 0, margin: 0 }}></Divider>
         <div className="pad15">
@@ -178,14 +178,14 @@ export default function Dashboard() {
               >
                 {' '}
                 <div className="pad15">
-                  <h3
+                  <h5
                     style={{
                       color: '#22075e',
                       marginBottom: 15,
                     }}
                   >
                     Accruals Preview
-                  </h3>
+                  </h5>
                   <PreviewState tag={'Draft'} color={'grey'} value={3} />
                   <PreviewState tag={'Pending'} color={'bleu'} value={5} />
                   <PreviewState tag={'Not Paid'} color={'orange'} value={12} />
@@ -203,14 +203,14 @@ export default function Dashboard() {
               >
                 {' '}
                 <div className="pad15">
-                  <h3
+                  <h5
                     style={{
                       color: '#22075e',
                       marginBottom: 15,
                     }}
                   >
                     Employees
-                  </h3>
+                  </h5>
                   <PreviewState tag={'HR'} color={'grey'} value={3} />
                   <PreviewState tag={'Marketing'} color={'bleu'} value={5} />
                   <PreviewState tag={'Product'} color={'orange'} value={12} />
@@ -238,7 +238,7 @@ export default function Dashboard() {
                 justifyContent: 'center',
               }}
             >
-              <h3 style={{ color: '#22075e', marginBottom: 30 }}>Customer Preview</h3>
+              <h5 style={{ color: '#22075e', marginBottom: 30 }}>Employee Preview</h5>
 
               <Progress type="dashboard" percent={25} width={148} />
               <p>New Employees this Month</p>

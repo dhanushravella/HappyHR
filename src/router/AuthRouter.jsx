@@ -6,6 +6,8 @@ import PageLoader from '@/components/PageLoader';
 
 const Login = lazy(() => import(/*webpackChunkName:'LoginPage'*/ '@/pages/Login'));
 
+const RedirectPage = lazy(() => import(/*webpackChunkName:'LoginPage'*/ '@/pages/Redirect'));
+
 const SSOLogin = lazy(() => import(/*webpackChunkName:'LoginPage'*/ '@/pages/Redirect'));
 
 const NotFound = lazy(() => import(/*webpackChunkName:'NotFoundPage'*/ '@/pages/NotFound'));
@@ -18,6 +20,7 @@ export default function AuthRouter() {
         <Switch location={location} key={location.pathname}>
           <PublicRoute path="/" component={Login} render={() => <Redirect to="/login" />} exact />
           <PublicRoute component={Login} path="/login" exact />
+          <PublicRoute component={RedirectPage} path="/redirect" exact />
           <PublicRoute component={SSOLogin} path="/ssoLogin" exact />
           <Route path="*" component={NotFound} render={() => <Redirect to="/notfound" />} />
         </Switch>

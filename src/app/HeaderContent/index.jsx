@@ -30,17 +30,18 @@ export default function HeaderContent() {
   const { SubMenu } = Menu;
 
   const profileDropdown = (
-    <div className="profileDropdown whiteBox shadow" style={{ minWidth: '200px' }}>
+    <div className="profileDropdown whiteBox shadow">
       <div className="pad15">
         <Avatar size="large" className="last" src={photo} style={{ float: 'left' }} />
         <div className="info">
-          <p className="strong">Prasanth</p>
-          <p>admin@demo.com</p>
+          <p className="strong">{JSON.parse(window.localStorage.auth).name}</p>
+          <p>{JSON.parse(window.localStorage.auth).email}</p>
+          <p>Role: {JSON.parse(window.localStorage.auth).role}</p>
         </div>
       </div>
       <div className="line"></div>
       <div>
-        <Menu>
+        {/*<Menu>
           <SubMenu key="sub1" icon={<AppstoreOutlined />} title="Role">
             <Menu.Item key="1">Admin</Menu.Item>
             <Menu.Item key="2">HR</Menu.Item>
@@ -56,7 +57,7 @@ export default function HeaderContent() {
             <Menu.Item key="11">Hindi</Menu.Item>
             <Menu.Item key="12">Bahasa</Menu.Item>
           </SubMenu>
-        </Menu>
+  </Menu>*/}
       </div>
       <div className="line"></div>
       <div>
@@ -73,27 +74,23 @@ export default function HeaderContent() {
     </div>
   );
   return (
-    <div className="headerIcon" style={{ position: 'absolute', right: 0, zIndex: '99' }}>
-      <Dropdown overlay={profileDropdown} trigger={['click']} placement="bottomRight">
-        {/* <Badge dot> */}
-        <Avatar className="last" src={photo} />
-        {/* </Badge> */}
-      </Dropdown>
-      <Avatar icon={<AppstoreOutlined />} />
-      <Avatar icon={<BellOutlined />} />
-      <AutoComplete
-        //popupClassName="certain-category-search-dropdown"
-        dropdownMatchSelectWidth={500}
-        style={{ width: 350 }}
-      >
-        <Input.Search size="large" placeholder="Type to search" />
-      </AutoComplete>
+    <div className="headerIcon" style={{ display: 'flex' }}>
       <Breadcrumb separator=">">
         <Breadcrumb.Item href="/">
           <HomeOutlined />
         </Breadcrumb.Item>
         <Breadcrumb.Item>{activity}</Breadcrumb.Item>
       </Breadcrumb>
+      <AutoComplete style={{ width: 350 }}>
+        <Input.Search size="medium" placeholder="Type to search" />
+      </AutoComplete>
+      <div className="rightHeader">
+        <Avatar icon={<BellOutlined />} />
+        <Avatar icon={<AppstoreOutlined />} />
+        <Dropdown overlay={profileDropdown} trigger={['click']} placement="bottomRight">
+          <Avatar className="last" src={photo} />
+        </Dropdown>
+      </div>
     </div>
   );
 }
