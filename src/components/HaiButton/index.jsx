@@ -5,9 +5,19 @@ import { Button } from '@material-ui/core';
 /**
  * Primary UI component for user interaction
  */
-export const HaiButton = ({ color, size, text, variant, ...props }) => {
+export const HaiButton = ({
+  color,
+  size,
+  text,
+  variant,
+  disabled,
+  required,
+  startIcon,
+  endIcon,
+  ...props
+}) => {
   return (
-    <Button variant={variant} color={color} size={size}>
+    <Button props>
       {text}
     </Button>
   );
@@ -26,6 +36,14 @@ HaiButton.propTypes = {
    * Button contents
    */
   text: PropTypes.string.isRequired,
+  /**
+   * If `true`, the  button is disabled.
+   */
+  disabled: PropTypes.bool,
+  /**
+   * If `true`, the  button is required.
+   */
+  required: PropTypes.bool,
   /**
    * Optional click handler
    */

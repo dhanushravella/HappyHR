@@ -119,6 +119,7 @@ export default function PayCard({
   chartType,
   titleAlign,
   consolidated,
+  content,
 }) {
   return chartType !== 'onlychart' ? (
     <Col
@@ -303,53 +304,56 @@ export default function PayCard({
             </Row>
           </div>
         )}
-        <Row gutter={[8, 8]}>
-          {info &&
-            Object.keys(info).length !== 0 &&
-            Object.keys(info).map((item) => {
-              if (item === 'payData' || item === 'consolidatedData') return null;
-              return (
-                <>
-                  <Col
-                    xs={{ span: 24 }}
-                    sm={{ span: 24 }}
-                    md={{ span: 24 }}
-                    lg={{ span: 12 }}
-                    xl={{ span: 8 }}
-                  >
-                    <div className="pad8">
-                      <Row gutter={[0, 24]}>
-                        <Col className="gutter-row" span={1}></Col>
-                        <Col className="gutter-row" span={10} style={{ textAlign: 'left' }}>
-                          <div className="left strong">{item}</div>
-                        </Col>
-                        <Col className="gutter-row" span={1}>
-                          :
-                        </Col>
-                        <Col
-                          className="gutter-row"
-                          span={12}
-                          style={{
-                            display: 'flex',
-                          }}
-                        >
-                          {true ? (
-                            <Tooltip title={'CHANGE'}>
-                              <Tag color={'blue'}>
-                                <div className="left">{info[item]}</div>
-                              </Tag>
-                            </Tooltip>
-                          ) : (
-                            <>{info[item]}</>
-                          )}
-                        </Col>
-                      </Row>
-                    </div>
-                  </Col>
-                </>
-              );
-            })}
-        </Row>
+        {info && Object.keys(info).length !== 0 && (
+          <Row gutter={[8, 8]}>
+            {info &&
+              Object.keys(info).length !== 0 &&
+              Object.keys(info).map((item) => {
+                if (item === 'payData' || item === 'consolidatedData') return null;
+                return (
+                  <>
+                    <Col
+                      xs={{ span: 24 }}
+                      sm={{ span: 24 }}
+                      md={{ span: 24 }}
+                      lg={{ span: 12 }}
+                      xl={{ span: 8 }}
+                    >
+                      <div className="pad8">
+                        <Row gutter={[0, 24]}>
+                          <Col className="gutter-row" span={1}></Col>
+                          <Col className="gutter-row" span={10} style={{ textAlign: 'left' }}>
+                            <div className="left strong">{item}</div>
+                          </Col>
+                          <Col className="gutter-row" span={1}>
+                            :
+                          </Col>
+                          <Col
+                            className="gutter-row"
+                            span={12}
+                            style={{
+                              display: 'flex',
+                            }}
+                          >
+                            {true ? (
+                              <Tooltip title={'CHANGE'}>
+                                <Tag color={'blue'}>
+                                  <div className="left">{info[item]}</div>
+                                </Tag>
+                              </Tooltip>
+                            ) : (
+                              <>{info[item]}</>
+                            )}
+                          </Col>
+                        </Row>
+                      </div>
+                    </Col>
+                  </>
+                );
+              })}
+          </Row>
+        )}
+        {content}
       </div>
     </Col>
   ) : (

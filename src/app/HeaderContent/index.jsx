@@ -81,9 +81,9 @@ export default function HeaderContent() {
         </Breadcrumb.Item>
         <Breadcrumb.Item>{activity}</Breadcrumb.Item>
       </Breadcrumb>
-      <AutoComplete style={{ width: 350 }}>
+      {/*<AutoComplete style={{ width: 350 }}>
         <Input.Search size="medium" placeholder="Type to search" />
-      </AutoComplete>
+  </AutoComplete>*/}
       <div className="rightHeader">
         <Avatar icon={<BellOutlined />} />
         <Avatar icon={<AppstoreOutlined />} />

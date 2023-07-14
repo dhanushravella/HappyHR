@@ -9,8 +9,8 @@ export default function DashboardLayout({ children }) {
     <Layout className="site-layout">
       <Content
         style={{
-          padding: '25px 30px',
-          margin: '50px auto',
+          padding: '10px 15px',
+          margin: '15px auto',
           width: '100%',
           //maxWidth: '1100px',
         }}
