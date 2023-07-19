@@ -13,6 +13,763 @@ import { request } from '@/request';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import Typography from '@mui/material/Typography';
+import { Grid } from '@material-ui/core';
+
+const mockData = {
+  success: true,
+  result: {
+    '30-Jun-2023': {
+      Earning: [
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'BASIC',
+          fieldDesc: 'Basic',
+          LOV_Text: 'Earning',
+          PayheadValue: 21000,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'HRA',
+          fieldDesc: 'HRA',
+          LOV_Text: 'Earning',
+          PayheadValue: 10500,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'SPLALL',
+          fieldDesc: 'Special Allowance',
+          LOV_Text: 'Earning',
+          PayheadValue: 6400,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'BONUS',
+          fieldDesc: 'Statutory Bonus',
+          LOV_Text: 'Earning',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+      ],
+      Deduction: [
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'LON_SALADV',
+          fieldDesc: 'Loan & Salary Advance',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'NOTDED',
+          fieldDesc: 'Notice Recovery',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'OTHDED',
+          fieldDesc: 'Other Deduction',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'IDDED',
+          fieldDesc: 'ID CARD RECOVERY',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'PF',
+          fieldDesc: 'PF Employee Contr',
+          LOV_Text: 'Deduction',
+          PayheadValue: 1800,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'PTAX',
+          fieldDesc: 'Professional Tax',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'TAXDEDUTHISMON',
+          fieldDesc: 'TDS',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'VPF',
+          fieldDesc: 'VPF',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'ELWF',
+          fieldDesc: 'LWF Employee',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'ESI',
+          fieldDesc: 'ESI Employee Contr',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+      ],
+      Reimbursement: [
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'LTARIM',
+          fieldDesc: 'LTA Allowance',
+          LOV_Text: 'Reimbursement',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'VEHRIM',
+          fieldDesc: 'Vehicle R&M',
+          LOV_Text: 'Reimbursement',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+      ],
+      'One Time Payment': [
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'PERBON',
+          fieldDesc: 'Performance Variable Pay',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'RELALL',
+          fieldDesc: 'Relocation Allowance',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'NOTPAY',
+          fieldDesc: 'Notice Pay',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'OTHERN',
+          fieldDesc: 'Other Earning',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'RBON',
+          fieldDesc: 'REGULAR BONUS',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'JONBON',
+          fieldDesc: 'Joining Bonus',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'REFBON',
+          fieldDesc: 'Referral Bonus',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Jun-2023',
+          PayheadName: 'LVNCAS',
+          fieldDesc: 'Leave Encashment',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+      ],
+    },
+    '31-May-2023': {
+      Earning: [
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'BASIC',
+          fieldDesc: 'Basic',
+          LOV_Text: 'Earning',
+          PayheadValue: 21000,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'HRA',
+          fieldDesc: 'HRA',
+          LOV_Text: 'Earning',
+          PayheadValue: 10500,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'SPLALL',
+          fieldDesc: 'Special Allowance',
+          LOV_Text: 'Earning',
+          PayheadValue: 6400,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'BONUS',
+          fieldDesc: 'Statutory Bonus',
+          LOV_Text: 'Earning',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+      ],
+      Deduction: [
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'LON_SALADV',
+          fieldDesc: 'Loan & Salary Advance',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'PF',
+          fieldDesc: 'PF Employee Contr',
+          LOV_Text: 'Deduction',
+          PayheadValue: 1800,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'PTAX',
+          fieldDesc: 'Professional Tax',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'TAXDEDUTHISMON',
+          fieldDesc: 'TDS',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'VPF',
+          fieldDesc: 'VPF',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'ELWF',
+          fieldDesc: 'LWF Employee',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'ESI',
+          fieldDesc: 'ESI Employee Contr',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'IDDED',
+          fieldDesc: 'ID CARD RECOVERY',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'NOTDED',
+          fieldDesc: 'Notice Recovery',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'OTHDED',
+          fieldDesc: 'Other Deduction',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+      ],
+      Reimbursement: [
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'VEHRIM',
+          fieldDesc: 'Vehicle R&M',
+          LOV_Text: 'Reimbursement',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'LTARIM',
+          fieldDesc: 'LTA Allowance',
+          LOV_Text: 'Reimbursement',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+      ],
+      'One Time Payment': [
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'PERBON',
+          fieldDesc: 'Performance Variable Pay',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'RBON',
+          fieldDesc: 'REGULAR BONUS',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'JONBON',
+          fieldDesc: 'Joining Bonus',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'REFBON',
+          fieldDesc: 'Referral Bonus',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'LVNCAS',
+          fieldDesc: 'Leave Encashment',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'OTHERN',
+          fieldDesc: 'Other Earning',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'RELALL',
+          fieldDesc: 'Relocation Allowance',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '31-May-2023',
+          PayheadName: 'NOTPAY',
+          fieldDesc: 'Notice Pay',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+      ],
+    },
+    '30-Apr-2023': {
+      Earning: [
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'BASIC',
+          fieldDesc: 'Basic',
+          LOV_Text: 'Earning',
+          PayheadValue: 21000,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'HRA',
+          fieldDesc: 'HRA',
+          LOV_Text: 'Earning',
+          PayheadValue: 10500,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'SPLALL',
+          fieldDesc: 'Special Allowance',
+          LOV_Text: 'Earning',
+          PayheadValue: 6400,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'BONUS',
+          fieldDesc: 'Statutory Bonus',
+          LOV_Text: 'Earning',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+      ],
+      Deduction: [
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'LON_SALADV',
+          fieldDesc: 'Loan & Salary Advance',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'PF',
+          fieldDesc: 'PF Employee Contr',
+          LOV_Text: 'Deduction',
+          PayheadValue: 1800,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'PTAX',
+          fieldDesc: 'Professional Tax',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'TAXDEDUTHISMON',
+          fieldDesc: 'TDS',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'VPF',
+          fieldDesc: 'VPF',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'ELWF',
+          fieldDesc: 'LWF Employee',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'ESI',
+          fieldDesc: 'ESI Employee Contr',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'NOTDED',
+          fieldDesc: 'Notice Recovery',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'OTHDED',
+          fieldDesc: 'Other Deduction',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'IDDED',
+          fieldDesc: 'ID CARD RECOVERY',
+          LOV_Text: 'Deduction',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+      ],
+      Reimbursement: [
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'LTARIM',
+          fieldDesc: 'LTA Allowance',
+          LOV_Text: 'Reimbursement',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'VEHRIM',
+          fieldDesc: 'Vehicle R&M',
+          LOV_Text: 'Reimbursement',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+      ],
+      'One Time Payment': [
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'PERBON',
+          fieldDesc: 'Performance Variable Pay',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'RBON',
+          fieldDesc: 'REGULAR BONUS',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'JONBON',
+          fieldDesc: 'Joining Bonus',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'REFBON',
+          fieldDesc: 'Referral Bonus',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'OTHERN',
+          fieldDesc: 'Other Earning',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'LVNCAS',
+          fieldDesc: 'Leave Encashment',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'RELALL',
+          fieldDesc: 'Relocation Allowance',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+        {
+          PayNewDate: '30-Apr-2023',
+          PayheadName: 'NOTPAY',
+          fieldDesc: 'Notice Pay',
+          LOV_Text: 'One Time Payment',
+          PayheadValue: 0,
+          IsOutlier: null,
+          OutlierPercentage: null,
+          OutlierRank: null,
+        },
+      ],
+    },
+  },
+};
 
 const Payroll = () => {
   const ref1 = useRef(null);
@@ -50,8 +807,8 @@ const Payroll = () => {
   const fabStyle = {
     position: 'absolute',
     bgcolor: green[500],
-    top: 100,
-    right: 32,
+    top: 200,
+    right: '1%',
   };
 
   const [open, setOpen] = useState(false);
@@ -68,9 +825,13 @@ const Payroll = () => {
       let queryData = request.payList({ entity, options });
       return queryData;
     };
-    payList().then((res) => {
-      if (res && res.success === true) setPayListData(res.result);
-    });
+    payList()
+      .then((res) => {
+        if (res && res.success === true) setPayListData(res.result);
+      })
+      .then((res) => {
+        if (!res) setPayListData(mockData.result);
+      });
   }, []);
 
   const handleItemClick = (item) => {
@@ -107,29 +868,26 @@ const Payroll = () => {
         <Fab onClick={handleDrawOpen} sx={fabStyle} aria-label={'Expand'} color={'inherit'}>
           <KeyboardArrowLeftIcon />
         </Fab>
-        <HaiCardSlider
-          title={'Pay cards'}
-          items={payListData}
-          width={'400'}
-          height={'200'}
-          chartType={'pie'}
-          id={'payMonthSlide'}
-          toggleIcon={false}
-          onClickHandle={(item) => handleItemClick(item)}
-        ></HaiCardSlider>
-        <Divider style={{ padding: 0, margin: 10 }}></Divider>
-        {activePayData && (
-          <>
-            <Row gutter={[24, 24]}>
-              <Col
-                className="gutter-row"
-                xs={{ span: 24 }}
-                sm={{ span: 24 }}
-                md={{ span: 24 }}
-                lg={{ span: 24 }}
-                xl={{ span: 24 }}
-                xxl={{ span: 24 }}
-              >
+        <Grid container>
+          <Grid item xs={12} ref={ref1}>
+            <HaiCardSlider
+              title={'Pay cards'}
+              items={payListData}
+              width={'400'}
+              height={'200'}
+              chartType={'pie'}
+              id={'payMonthSlide'}
+              toggleIcon={false}
+              onClickHandle={(item) => handleItemClick(item)}
+            ></HaiCardSlider>
+          </Grid>
+          <Grid item xs={12}>
+            <Divider style={{ padding: 0, margin: 10 }}></Divider>
+          </Grid>
+
+          {activePayData && (
+            <>
+              <Grid item xs={12}>
                 <Collapse
                   size="small"
                   items={[
@@ -163,6 +921,7 @@ const Payroll = () => {
                       ),
                       children: (
                         <PayCard
+                          ref={ref2}
                           title=""
                           titleAlign={'left'}
                           info={payData}
@@ -173,22 +932,25 @@ const Payroll = () => {
                     },
                   ]}
                 />
-              </Col>
-            </Row>
-            <HaiCardSlider
-              title={'Pay cards'}
-              items={activePayData}
-              width={'500'}
-              height={'400'}
-              chartType={'bar'}
-              id={'payDataSlide'}
-              toggleIcon={true}
-              onClickHandle={(item) => console.log(item)}
-            ></HaiCardSlider>
-          </>
-        )}
+              </Grid>
+              <Grid item xs={12}>
+                <HaiCardSlider
+                  ref={ref3}
+                  title={'Pay cards'}
+                  items={activePayData}
+                  width={'500'}
+                  height={'400'}
+                  chartType={'bar'}
+                  id={'payDataSlide'}
+                  toggleIcon={true}
+                  onClickHandle={(item) => console.log(item)}
+                ></HaiCardSlider>
+              </Grid>
+            </>
+          )}
+        </Grid>
         <Drawer
-          PaperProps={{ style: { width: '40%' } }}
+          PaperProps={{ style: { width: '75%' } }}
           anchor={'right'}
           open={drawOpen}
           onClose={handleDrawClose}

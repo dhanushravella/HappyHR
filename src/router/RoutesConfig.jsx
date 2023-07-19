@@ -15,10 +15,10 @@ export const routesConfig = [
     path: '/payroll',
     component: 'Payroll',
   },
-  /*{
+  {
     path: '/turbo',
     component: 'Turbo',
-  },*/
+  },
   {
     path: '/redirect',
     component: 'Redirect',

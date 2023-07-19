@@ -25,6 +25,8 @@ import Remove from '@material-ui/icons/Remove';
 import SaveAlt from '@material-ui/icons/SaveAlt';
 import Search from '@material-ui/icons/Search';
 import ViewColumn from '@material-ui/icons/ViewColumn';
+import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
+import CircularProgress from '@material-ui/core/CircularProgress';
 
 const tableIcons = {
   Add: forwardRef((props, ref) => <AddBox {...props} ref={ref} />),
@@ -430,6 +432,24 @@ const Turbo = () => {
   let options = {
     PayHeadName: 'Basic',
   };
+  const useStyles = makeStyles((Theme) =>
+    createStyles({
+      root: {
+        display: 'flex',
+        '& > * + *': {
+          marginLeft: Theme.spacing(2),
+        },
+        position: 'absolute',
+        top: 0,
+        width: '100%',
+        height: '100%',
+        justifyContent: 'center',
+        alignItems: 'center',
+        zIndex: 10000,
+      },
+    })
+  );
+
   const [tabData, setTabData] = useState([]);
   const [cmbData, setCmbData] = useState([]);
   const [cmbStore, setCmbStore] = useState([]);
@@ -441,6 +461,8 @@ const Turbo = () => {
   };
 
   const handleChange = (value) => {
+    debugger;
+    setIsLoading(true);
     console.log(value);
     setCmbData(value);
     const asyncList = async () => {
@@ -480,6 +502,8 @@ const Turbo = () => {
     });
   }, []);
 
+  const classes = useStyles();
+
   return (
     <>
       <DashboardLayout>
@@ -508,6 +532,11 @@ const Turbo = () => {
           </Col>
         </Row>
         <Row>
+          {isLoading && (
+            <div className={classes.root}>
+              <CircularProgress />
+            </div>
+          )}
           <RenderMaterialData
             loading={isLoading}
             data={tabData}
@@ -528,12 +557,19 @@ const Turbo = () => {
                   label: 'Table Data',
                   key: '1',
                   children: (
-                    <RenderData
-                      loading={isLoading}
-                      data={tabData}
-                      cmbType={cmbData.value}
-                      title={cmbData.label}
-                    ></RenderData>
+                    <>
+                      {isLoading && (
+                        <div className={classes.root}>
+                          <CircularProgress />
+                        </div>
+                      )}
+                      <RenderData
+                        loading={isLoading}
+                        data={tabData}
+                        cmbType={cmbData.value}
+                        title={cmbData.label}
+                      ></RenderData>
+                    </>
                   ),
                 },
                 {

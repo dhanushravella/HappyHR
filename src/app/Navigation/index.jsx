@@ -54,10 +54,10 @@ export default function Navigation() {
             <Link to={'/'} />
             Dashboard
           </Menu.Item>
-          {/*<Menu.Item visible={false} key={'Turo'} icon={<BugOutlined />}>
+          <Menu.Item visible={false} key={'Turo'} icon={<BugOutlined />}>
             <Link to={'/turbo'} />
             Ask Jeeves
-          </Menu.Item>*/}
+          </Menu.Item>
           <Menu.Item key={'View Payslip'} icon={<DollarOutlined />}>
             <Link to={'/payroll'} onClick={updateActivity} />
             View Payslip
