@@ -139,10 +139,13 @@ import Grid from '@material-ui/core/Grid';
 import { DashboardLayout } from '@/layout';
 import { HaiProfileCard } from '@/components/HaiProfileCard';
 import PayCard from '@/components/CarousalCard';
+import AlarmOnIcon from '@mui/icons-material/AlarmOn';
 
 const leaveData = [
   {
     title: 'Annual Leave',
+    value: '10',
+    unit: 'days',
     units: [
       {
         type: 'Available',
@@ -151,58 +154,64 @@ const leaveData = [
       },
       {
         type: 'Utilised',
-        value: '10',
+        value: '5',
         tagColor: '#2db7f5',
       },
       {
         type: 'Encashed',
-        value: '10',
+        value: '0',
         tagColor: '#87d068',
       },
     ],
   },
   {
     title: 'Medical Leave',
+    value: '14',
+    unit: 'days',
     units: [
       {
         type: 'Available',
-        value: '10',
+        value: '14',
         tagColor: '#f50',
       },
       {
         type: 'Utilised',
-        value: '10',
+        value: '2',
         tagColor: '#2db7f5',
       },
       {
         type: 'Encashed',
-        value: '10',
+        value: 'NA',
         tagColor: '#87d068',
       },
     ],
   },
   {
-    title: 'Unpaid Leave',
+    title: 'Child Care Leave',
+    value: '6',
+    unit: 'days',
     units: [
       {
         type: 'Available',
-        value: '10',
+        value: '6',
         tagColor: '#f50',
       },
       {
         type: 'Utilised',
-        value: '10',
+        value: '0',
         tagColor: '#2db7f5',
       },
       {
         type: 'Encashed',
-        value: '10',
+        value: 'NA',
         tagColor: '#87d068',
       },
     ],
   },
   {
     title: 'Compassionate Leave',
+    value: '10',
+    unit: 'days',
     units: [
       {
         type: 'Available',
@@ -211,12 +220,12 @@ const leaveData = [
       },
       {
         type: 'Utilised',
-        value: '10',
+        value: '0',
         tagColor: '#2db7f5',
       },
       {
         type: 'Encashed',
-        value: '10',
+        value: 'NA',
         tagColor: '#87d068',
       },
     ],
@@ -226,7 +235,12 @@ const leaveData = [
 const LeaveBalance = () => {
   return (
     <PayCard
-      title="Leave Balance"
+      title={
+        <div className="pad5" style={{ display: 'inline-block' }}>
+          <AlarmOnIcon></AlarmOnIcon>
+          <h3 style={{ display: 'inline' }}>My Leave</h3>
+        </div>
+      }
       titleAlign={'left'}
       colSize={24}
       midSize={24}
@@ -237,7 +251,7 @@ const LeaveBalance = () => {
               <TopCard
                 title={item.title}
                 units={item.units}
-                tagContent="10"
+                tagContent={item.value + ' ' + item.unit}
                 tagColor="#f50"
                 available="Available"
               />
@@ -249,52 +263,29 @@ const LeaveBalance = () => {
   );
 };
 
-const TopCard = ({ title, units, tagContent, tagColor, prefix }) => {
+const TopCard = ({ title, value, units, tagContent, tagColor, prefix }) => {
   return (
-    <Grid item xs={12} sm={12} md={6} lg={6}>
-      <div className="whiteBox shadow" style={{ color: '#595959' }}>
-        <div className="pad5 strong" style={{ textAlign: 'center', justifyContent: 'center' }}>
-          <h3 style={{ color: '#22075e', marginBottom: 0 }}>{title}</h3>
+    <Grid container xs={12}>
+      <Grid item xs={8}>
+        <div className="pad10" style={{ color: '#22075e', marginBottom: 0 }}>
+          {title}
         </div>
-        <Divider style={{ padding: 0, margin: 0 }}></Divider>
-        {units.map((unit, index) => (
-          <div className="pad15">
-            <Grid container spacing={2}>
-              <Grid item className="gutter-row" xs={7} style={{ textAlign: 'left' }}>
-                <div className="left">{unit.type}</div>
-              </Grid>
-              <Grid item className="gutter-row" xs={1}>
-                <Divider
-                  style={{
-                    padding: '10px 0',
-                    justifyContent: 'center',
-                  }}
-                  type="vertical"
-                ></Divider>
-              </Grid>
-              <Grid
-                item
-                className="gutter-row"
-                xs={4}
-                style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                }}
-              >
-                <Tag
-                  color={tagColor}
-                  style={{
-                    margin: '0 auto',
-                    justifyContent: 'center',
-                  }}
-                >
-                  {tagContent}
-                </Tag>
-              </Grid>
-            </Grid>
-          </div>
-        ))}
-      </div>
+      </Grid>
+      <Grid item xs={1}>
+        <div className="pad10">--</div>
+      </Grid>
+      <Grid item xs={3}>
+        <Tag
+          color={tagColor}
+          className="pad10"
+          style={{
+            margin: '0 auto',
+            justifyContent: 'center',
+          }}
+        >
+          {tagContent}
+        </Tag>
+      </Grid>
     </Grid>
   );
 };

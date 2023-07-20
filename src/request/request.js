@@ -105,8 +105,7 @@ const request = {
 
   list: async ({ entity, options = {} }) => {
     try {
-      axios.defaults.baseURL =
-        entity === 'payrolls' ? 'http://172.16.20.222:8000/api/' : API_BASE_URL;
+      axios.defaults.baseURL = entity === 'payrolls' ? 'http://localhost:8000/api/' : API_BASE_URL;
       axios.defaults.withCredentials = entity === 'payrolls' ? false : true;
       console.log(axios.defaults.baseURL);
       let query = '?';
@@ -143,8 +142,7 @@ const request = {
 
   fetch: async ({ entity, options = {} }) => {
     try {
-      axios.defaults.baseURL =
-        entity === 'payrolls' ? 'http://172.16.20.222:8000/api/' : API_BASE_URL;
+      axios.defaults.baseURL = entity === 'payrolls' ? 'http://localhost:8000/api/' : API_BASE_URL;
       axios.defaults.withCredentials = entity === 'payrolls' ? false : true;
       console.log(axios.defaults.baseURL);
       let query = '?';
@@ -181,8 +179,7 @@ const request = {
 
   master: async ({ entity, options = {} }) => {
     try {
-      axios.defaults.baseURL =
-        entity === 'payrolls' ? 'http://172.16.20.222:8000/api/' : API_BASE_URL;
+      axios.defaults.baseURL = entity === 'payrolls' ? 'http://localhost:8000/api/' : API_BASE_URL;
       axios.defaults.withCredentials = entity === 'payrolls' ? false : true;
       console.log(axios.defaults.baseURL);
       let query = '?';
@@ -219,8 +216,7 @@ const request = {
 
   payList: async ({ entity, options = {} }) => {
     try {
-      axios.defaults.baseURL =
-        entity === 'payrolls' ? 'http://172.16.20.222:8000/api/' : API_BASE_URL;
+      axios.defaults.baseURL = entity === 'payrolls' ? 'http://localhost:8000/api/' : API_BASE_URL;
       axios.defaults.withCredentials = entity === 'payrolls' ? false : true;
       console.log(axios.defaults.baseURL);
       let query = '?';
@@ -246,8 +242,7 @@ const request = {
 
   payData: async ({ entity, options = {} }) => {
     try {
-      axios.defaults.baseURL =
-        entity === 'payrolls' ? 'http://172.16.20.222:8000/api/' : API_BASE_URL;
+      axios.defaults.baseURL = entity === 'payrolls' ? 'http://localhost:8000/api/' : API_BASE_URL;
       axios.defaults.withCredentials = entity === 'payrolls' ? false : true;
       console.log(axios.defaults.baseURL);
       let query = '?';

@@ -816,6 +816,11 @@ const Payroll = () => {
   const entity = 'payrolls';
   useEffect(() => {
     // Combo Data
+    // Write condition to check if the location contains happy keyword then directly setPayListData with mockData.result
+    if (window.location.hostname.indexOf('happy') > -1) {
+      setPayListData(mockData.result);
+      return;
+    }
     const payList = async () => {
       options = {
         empCode: JSON.parse(window.localStorage.auth).emp_code || 'VVDN/3994',
